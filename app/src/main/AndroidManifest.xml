@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hackcovid.covidhack">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstWindow">
+        <activity android:name=".othersProfileActivity"></activity>
+        <activity android:name=".chatActivity" />
+        <activity android:name=".messagingActivity" />
+        <activity android:name=".fullScreenActivity" />
+        <activity android:name=".notificationActivity" />
+        <activity android:name=".commentsActivity" />
+        <activity android:name=".quesAnsActivity" />
+        <activity android:name=".askActivity" />
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".balanceLoadActivity" />
+        <activity android:name=".premiumRequestActivity" />
+        <activity android:name=".originalPremiumRegistrationActivity" />
+        <activity android:name=".userRegisterActivity" />
+        <activity android:name=".worldStatusActivity" />
+        <activity android:name=".liveCoronaTestActivity" />
+        <activity android:name=".liveCoronaUpdateActivity" />
+        <activity android:name=".EmergencyActivity" />
+        <activity android:name=".dhakaActivity" />
+        <activity android:name=".faqActivity" />
+        <activity android:name=".dailyNewsActivity" />
+        <activity android:name=".telemedicineActivity" />
+        <activity android:name=".detailsCovidStatusActivity" />
+        <activity android:name=".premiumCatagory2Activity" />
+        <activity android:name=".premiumCatagory1Activity" />
+        <activity android:name=".profileActivity" />
+        <activity android:name=".premiumActivity" />
+        <activity android:name=".statisticsActivity" />
+        <activity android:name=".homeCatagory1Activity" />
+        <activity android:name=".firsthomeActivity" />
+        <activity android:name=".premiumRegistration" />
+        <activity android:name=".homeActivity" />
+        <activity android:name=".signUp" />
+        <activity android:name=".first_screen" />
+        <activity android:name=".MainActivity" />
+
+        <service android:name=".FirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.hackcovid.Notification.FirebaseService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

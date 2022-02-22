@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <item
+        android:id="@+id/newsfeedId"
+        android:title="News Feed"
+        android:iconTint="@color/Black"
+
+        android:icon="@drawable/newsfeedicon"/>
+
+
+
+    <item
+        android:id="@+id/chatId"
+        android:title="ChatRoom"
+        android:iconTint="@color/Black"
+        android:icon="@drawable/message"/>
+
+    <item
+        android:id="@+id/homeId"
+        android:title="Home"
+        android:iconTint="@color/Black"
+
+        android:icon="@drawable/home"/>
+
+
+    <item
+        android:id="@+id/notificationId"
+        android:title="Notification"
+        android:iconTint="@color/Black"
+        android:icon="@drawable/notification"/>
+
+    <item
+        android:id="@+id/profileId"
+        android:title="Profile"
+        android:iconTint="@color/Black"
+        android:icon="@drawable/profile"/>
+
+</menu>

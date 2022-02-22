@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">COVID HACK</string>
+    <string-array name="topics">
+        <item>select topic</item>
+        <item>Bangladesh</item>
+        <item>Foreign</item>
+
+        <item>News</item>
+
+        <item>Emergency</item>
+        <item>Help</item>
+        <item>Vaccine</item>
+        <item>Telemedicine</item>
+        <item>Others</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

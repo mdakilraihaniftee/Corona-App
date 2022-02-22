@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/white"
+    tools:context=".chatActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/Lavender"
+
+        android:id="@+id/porichoy"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:id="@+id/backButton"
+
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/profileImage"
+            android:layout_marginLeft="50dp"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:id="@+id/username"
+
+            android:layout_marginLeft="115dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:id="@+id/onlineStatusId"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="115dp"
+
+            android:textSize="13sp"
+
+            android:textColor="@color/Black"
+
+            />
+
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/porichoy"
+        android:layout_above="@+id/sendbar"
+        android:id="@+id/messageRecyclerView"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/sendbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:padding="5dp"
+
+        >
+
+        <EditText
+            android:id="@+id/edtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Messages"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/round_border"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/DimGray"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:id="@+id/sendBtn"
+            android:layout_height="50dp"
+            app:cardBackgroundColor="#4A4ADF"
+            android:layout_centerInParent="true"
+            app:cardCornerRadius="30dp"
+
+            android:layout_alignParentRight="true"
+            >
+
+            <ImageView
+
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/sendicon"
+
+                android:layout_gravity="center"
+                />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

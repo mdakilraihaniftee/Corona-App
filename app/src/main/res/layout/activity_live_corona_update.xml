@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".liveCoronaUpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/introMessegeId"
+        android:layout_margin="20dp"
+        android:background="@drawable/catagory7bg"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Be gentle with other.keep answering other's query"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/massageAdapterId"
+        android:layout_below="@+id/introMessegeId"
+        android:layout_above="@+id/typeMessegePortion"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/typeMessegePortion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp"
+        android:layout_alignParentBottom="true">
+        
+        <androidx.cardview.widget.CardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:cardCornerRadius="666dp"
+            android:layout_margin="3dp"
+            >
+
+            <EditText
+                android:id="@+id/messegeId"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#00838F"
+                android:layout_gravity="center_vertical"
+                android:hint="type your messeges"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sendMassegeId"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:cardCornerRadius="540dp"
+            android:layout_margin="3dp"
+            >
+
+            <ImageView
+
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sendicon"
+                />
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

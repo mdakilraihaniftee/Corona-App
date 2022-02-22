@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "545657201687",
+    "firebase_url": "https://corona-9efc0-default-rtdb.firebaseio.com",
+    "project_id": "corona-9efc0",
+    "storage_bucket": "corona-9efc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545657201687:android:e4476c99c9576b2df22852",
+        "android_client_info": {
+          "package_name": "com.hackcovid.covidhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545657201687-8or31ad8uab9abdofo7esq0hdb55phch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackcovid.covidhack",
+            "certificate_hash": "32d4e6599d04d18069777d1df9285caf4f779a55"
+          }
+        },
+        {
+          "client_id": "545657201687-e829sll36pvec93qsh9md0tue9ku6aji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackcovid.covidhack",
+            "certificate_hash": "be477b37ca348776dba04d04393d6533ad38aaa8"
+          }
+        },
+        {
+          "client_id": "545657201687-gte48ee1h3pn76jf762pusnb9m9sm1fd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAist9wP0VG-TfY-TLBl82aDmUx1ugBIvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545657201687-gte48ee1h3pn76jf762pusnb9m9sm1fd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

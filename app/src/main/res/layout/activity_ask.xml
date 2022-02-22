@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".askActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/ic_wave2"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="CREATE POST"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quesToolbar"
+
+        android:elevation="4dp"
+        />
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_margin="10dp"
+
+        android:background="@color/DimGray"
+        android:outlineAmbientShadowColor="@color/DimGray"
+        android:outlineSpotShadowColor="@color/Blue"
+        android:entries="@array/topics"
+        />
+    <EditText
+        android:id="@+id/quesText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Write Your Post"
+        android:paddingLeft="15dp"
+
+        android:background="@drawable/round_post"
+
+        android:textColorHint="@color/DimGray"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+
+        />
+
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap The Icon If You Want To Add Image"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/Lavender"
+        android:textSize="16sp"
+        />
+    
+    <ImageView
+        android:id="@+id/quesImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/image"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/cancelId"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/round_bg"
+            android:gravity="center"
+            android:backgroundTint="#B7B7E8"
+
+            android:textColor="@color/black"
+            android:text="Cancel"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            />
+    <TextView
+        android:id="@+id/postQuesId"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/round_bg"
+        android:text="Post Question"
+        android:textColor="@color/black"
+        android:backgroundTint="#B8B8ED"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
