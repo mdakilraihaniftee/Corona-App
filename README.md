@@ -1,6 +1,6 @@
 # Corona App  
 
-An **Android application** developed during the COVID-19 pandemic to serve as a centralized platform for real-time updates on COVID-19 statistics, along with social media and messaging features. This app combines the power of Firebase for backend support and API integration for dynamic content updates.  
+An **Android application** developed during the COVID-19 pandemic to serve as a centralized platform for real-time updates on COVID-19 statistics, along with social media and messaging features. This app combines the power of Firebase for backend support and API integration for dynamic content updates. This is an Android Application that can be used to get updates of all kinds of Covid News in Bangladesh and other countries of the world. It can be also used as social media as users can post or share something via News Feed and Chatbox. Fetch data from API in JSON, Used Firebase database, Firebase Cloud Messaging, Firebase Cloud fuction 
 
 ---
 
